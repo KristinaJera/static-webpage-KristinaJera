@@ -303,13 +303,14 @@
        position:relative;
       }
     .profile-container 
-      .container button {
+      .container #button {
+        margin-top: 20px;
         transition: transform 0.2s ease-in;
       }
     .profile-container
-      .container button:hover {
+      .container #button:hover {
         font-weight: 700;
-        transform: translateY(-15px);
+transform: translateY(-15px);
     }
     .second-section
       .social-icons a {
@@ -484,6 +485,7 @@
         line-height: 1;
         color: #d7d6d6;
         text-shadow: 0 0 70px white;
+        margin-bottom: 40px;
       }
   .profile-container 
     .container
